@@ -20,5 +20,3 @@ Blog: [backend nodejs](https://anonystick.com)
 # Try
 
 [localhost](http://localhost:3051)
-
-test cicd
