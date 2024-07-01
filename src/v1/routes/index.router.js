@@ -8,4 +8,22 @@ router.get('/checkstatus', (req, res, next) => {
     })
 })
 
+
+router.get('/api/user', (req, res, next) => {
+    res.status(200).json([
+        {
+            status: 'success',
+            message: 'api ok'
+        },
+        {
+            status: 'success',
+            message: 'api ok'
+        },
+        {
+            status: 'success',
+            message: 'api ok'
+        }
+    ])
+})
+
 module.exports = router;
